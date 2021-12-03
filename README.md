@@ -154,7 +154,7 @@ When you start the solr image, you can adjust the configuration of the instance 
 
 - `SOLR_PORT_NUMBER`: Port used by Solr server. Default: **8983**
 - `SOLR_SERVER_DIR`: Specify the Solr server directory. Default: **/opt/bitnami/solr/server**
-- `SOLR_CORES`: Core names to create at first run seperated by either a space, (` `), a comma (`,`) or a semicolon (`;`). By default, it will not create a core. (E.g.: '**my_core_en,my_core_es**')
+- `SOLR_CORES`: List of core names to create at first run separated by either a space, (` `), a comma (`,`) or a semicolon (`;`). No default. (E.g.: '**my_core_en,my_core_es**')
 - `SOLR_CORE_CONF_DIR`: Configuration directory to copy when creating a new core. Default: **data_driven_schema_configs**
 
 Cluster related environment variables:
